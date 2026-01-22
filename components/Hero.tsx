@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
   playsInline/>
 
       <div className="relative z-10 flex flex-col h-full px-4 sm:px-8 md:px-16 lg:px-24">
-        <nav className="flex justify-between items-center py-4 sm:py-8 w-full gap-3 sm:gap-6 md:gap-8">
+        <nav className="flex justify-between items-center py-4 sm:py-8 w-full gap-2 sm:gap-6 md:gap-8">
           <div className="w-32 sm:w-40 md:w-48 lg:w-56 h-10 sm:h-12 md:h-14 lg:h-16 bg-cover bg-center bg-no-repeat flex-shrink-0" 
                style={{ backgroundImage: `url('${logo}')` }}></div>
           
@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
             <a href="#about" className="hover:text-gray-300 transition-colors whitespace-nowrap">About Us</a>
             <a href="#contact" className="flex items-center gap-1 sm:gap-1.5 md:gap-2 hover:text-gray-300 transition-colors group whitespace-nowrap">
               Let's Talk
-              <span className="material-icons group-hover:translate-x-1 transition-transform" style={{ fontSize: '18px' }}>arrow_forward</span>
+              <span className="material-icons group-hover:translate-x-1 transition-transform" style={{ fontSize: '12px' }}>arrow_forward</span>
             </a>
           </div>
         </nav>
