@@ -9,7 +9,8 @@ const Hero: React.FC = () => {
   return (
     <header className="
     relative 
-    h-screen 
+    h-[78vh] lg:h-screen
+    md:h-[78vh] 
     min-h-[500px] 
     bg-gray-500 
     text-white 
@@ -39,7 +40,7 @@ const Hero: React.FC = () => {
                style={{ backgroundImage: `url('${logo}')` }}></div>
           
           {/* Navigation - Single Row for all screens */}
-          <div className="flex items-center gap-3 sm:gap-6 md:gap-10 lg:gap-14 text-[11px] sm:text-xs md:text-sm lg:text-base uppercase font-semibold tracking-wider md:tracking-widest ml-auto">
+          <div className="flex items-center gap-3 sm:gap-6 md:gap-10 lg:gap-14 text-[8px] sm:text-xs md:text-sm lg:text-base uppercase font-semibold tracking-wider md:tracking-widest ml-auto">
             <a href="#portfolio" className="hover:text-gray-300 transition-colors whitespace-nowrap">Portfolio</a>
             <a href="#about" className="hover:text-gray-300 transition-colors whitespace-nowrap">About Us</a>
             <a href="#contact" className="flex items-center gap-1 sm:gap-1.5 md:gap-2 hover:text-gray-300 transition-colors group whitespace-nowrap">
